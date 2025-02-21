@@ -781,3 +781,67 @@ nav ul li a.active {
     text-align: center;
     padding: 10px 15px;
 }
+/* Contact Page Styles */
+.contact-page {
+    padding: 80px 20px;
+    background-color: #FFFFFF; /* White background for the page */
+    color: #333333; /* Dark text for better readability */
+}
+
+.contact-page h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #2E8B57; /* Green for main heading */
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.location, .contact-person {
+    flex-basis: calc(50% - 20px);
+    background-color: #2E8B57; /* Green background for contact information */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.location-image, .contact-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #FFFFFF; /* White for subheadings on green background */
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF; /* White text on green background */
+}
+
+.contact-info a {
+    color: #FFFFFF; /* White for links on green background */
+    text-decoration: none;
+    font-weight: bold; /* Make links stand out */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .location, .contact-person {
+        flex-basis: 100%;
+    }
+}
