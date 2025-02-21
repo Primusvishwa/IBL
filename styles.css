@@ -1,0 +1,847 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9); /* Primary Green with transparency */
+    padding: 15px 0;
+    transition: background-color 0.3s ease;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Primary Yellow */
+}
+
+/* Homepage Content */
+.homepage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #2E8B57, #66CDAA); /* Gradient from Primary to Secondary Green */
+}
+
+.content {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.content h1 {
+    font-size: 120px;
+    font-weight: 700;
+    color: #FFD700; /* Primary Yellow */
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #66CDAA; /* Secondary Green */
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #FFD700; /* Primary Yellow */
+    color: #333333;
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57; /* Primary Green */
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 80px;
+    }
+
+    .content h2 {
+        font-size: 20px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+}
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9); /* Primary Green with transparency */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700; /* Primary Yellow */
+}
+
+/* About Page Content */
+.about-page {
+    padding-top: 100px; /* Offset for fixed header */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px;
+}
+
+.text-content {
+    flex-basis: 60%;
+}
+
+.text-content h1 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.text-content .divider {
+    width: 100px;
+    height: 4px;
+    background-color: #FFD700; /* Primary Yellow */
+    margin-top: 10px;
+}
+
+.text-content p,
+.text-content ul {
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+.text-content ul {
+    margin-top: 10px;
+}
+
+.framework-content {
+    flex-basis: 35%;
+}
+
+.framework-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.framework-list li {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57; /* Primary Green */
+    color: #FFFFFF;
+}
+/* About Page: Strategic Framework Section */
+.framework-content {
+    flex-basis: 40%; /* Adjust width of the right section */
+    text-align: center; /* Center-align text and images */
+}
+
+.framework-content h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.framework-image {
+    max-width: 100%; /* Make sure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Add rounded corners for a modern look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for depth */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9); /* Primary Green with transparency */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700; /* Primary Yellow */
+}
+
+/* About Page Layout */
+.about-page {
+    padding-top: 100px; /* Offset for fixed header */
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 100px;
+}
+
+.about-section.reverse-layout {
+    flex-direction: row-reverse; /* Reverse layout for alternating design */
+}
+
+.text-content {
+    flex-basis: 50%;
+}
+
+.text-content h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+}
+
+/* Image Styling */
+.image-content {
+    flex-basis: 50%;
+}
+
+.about-image {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional rounded corners */
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57; /* Primary Green */
+    color: #FFFFFF;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9); /* Primary Green */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700; /* Primary Yellow */
+}
+
+/* Learn More Page Layout */
+.learnmore-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Why Choose IBL Section */
+.why-choose-ibl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+/* Hexagon Shape for Left Section */
+.hexagon {
+    width: 300px;
+    height: 260px;
+    background-color: #333333; /* Dark Gray */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon h1 {
+    color: #FFFFFF; /* White text */
+    font-size: 22px;
+}
+
+/* Competitive Advantages Section */
+.competitive-advantages {
+    max-width: 60%;
+}
+
+.competitive-advantages h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.competitive-advantages ul {
+    margin-top: 20px;
+}
+
+.competitive-advantages li {
+    margin-bottom: 15px;
+}
+
+.competitive-advantages li strong {
+    color: #2E8B57; /* Primary Green */
+}
+/* Learn More Page Layout */
+.learnmore-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Why Choose IBL Section */
+.why-choose-ibl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+/* Hexagon Shape for Left Section */
+.hexagon {
+    width: 300px;
+    height: 260px;
+    background-color: #333333; /* Dark Gray */
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon h1 {
+    color: #FFFFFF; /* White text */
+    font-size: 22px;
+}
+
+/* Competitive Advantages Image */
+.competitive-advantages-image {
+    flex-basis: 60%;
+}
+
+.advantages-image {
+    max-width: 100%; /* Ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9); /* Solid green by default */
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700; /* Primary Yellow */
+}
+
+/* Learn More Page Layout */
+.learnmore-page {
+    margin-top: 80px; /* Offset for fixed header */
+}
+
+/* Section Styling */
+.learnmore-section {
+    display: flex;
+    flex-direction: column; /* Stack heading and image vertically */
+    align-items: center;
+    padding: 50px 20px;
+}
+
+/* Stylish Box for Headings */
+.stylish-box {
+    background-color: #2E8B57; /* Primary Green */
+    color: #FFFFFF; /* White text */
+    padding: 20px 30px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+.stylish-box h1 {
+    font-size: 24px;
+}
+
+/* Image Styling */
+.image-container {
+    margin-top: 20px;
+}
+
+.section-image {
+    max-width: 90%; /* Ensure responsiveness */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Scrollbar Styling */
+body.scrolling-down::-webkit-scrollbar {
+    background-color: transparent; /* Transparent scrollbar when scrolling down */
+}
+
+body::-webkit-scrollbar {
+    width: 10px; /* Default scrollbar width */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(46, 139, 87, 0.7); /* Green scrollbar thumb by default */
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9);
+    padding: 15px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    padding-right: 30px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700;
+}
+
+/* Products Page Layout */
+.products-page {
+    padding-top: 80px;
+}
+
+.application-areas {
+    padding: 60px 0;
+}
+
+.content-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Text Content */
+.text-content {
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+
+.text-content h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #2E8B57;
+    margin-bottom: 30px;
+}
+
+.area {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.area:hover {
+    transform: translateY(-5px);
+}
+
+.area h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #2E8B57;
+    margin-bottom: 10px;
+}
+
+.area p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Image Content */
+.image-content {
+    flex-basis: 45%;
+    position: sticky;
+    top: 100px;
+}
+
+.application-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #2E8B57;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .content-wrapper {
+        flex-direction: column;
+    }
+
+    .text-content, .image-content {
+        flex-basis: 100%;
+        padding-right: 0;
+    }
+
+    .image-content {
+        margin-top: 40px;
+        position: static;
+    }
+}/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(46, 139, 87, 0.9);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #FFD700;
+}
+
+/* Rhamnolipid & Lipopeptide Section */
+.rhamnolipid-products {
+    padding: 60px 20px;
+    background-color: #f9f9f9; /* Light background for contrast */
+}
+
+.rhamnolipid-products h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Product Cards Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Product Card */
+.product-card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Clip overflowing image edges */
+}
+
+.product-card img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.product-card h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E8B57; /* Primary Green */
+    text-align: center;
+    margin-top: 15px;
+}
+
+.product-card p {
+    font-size: 16px;
+    text-align: center;
+    padding: 10px 15px;
+}
+/* Contact Page Styles */
+.contact-page {
+    padding: 80px 20px;
+    background-color: #FFFFFF; /* White background for the page */
+    color: #333333; /* Dark text for better readability */
+}
+
+.contact-page h1 {
+    font-size: 36px;
+    text-align: center;
+    color: #2E8B57; /* Green for main heading */
+    margin-bottom: 40px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.location, .contact-person {
+    flex-basis: calc(50% - 20px);
+    background-color: #2E8B57; /* Green background for contact information */
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.location-image, .contact-image {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #FFFFFF; /* White for subheadings on green background */
+}
+
+.contact-info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #FFFFFF; /* White text on green background */
+}
+
+.contact-info a {
+    color: #FFFFFF; /* White for links on green background */
+    text-decoration: none;
+    font-weight: bold; /* Make links stand out */
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .location, .contact-person {
+        flex-basis: 100%;
+    }
+}
